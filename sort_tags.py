@@ -1,10 +1,10 @@
 '''
-    This plugin adds tags_sorted_article_length to the context,
-    which is a list of tupels (Tag, [Articles]) that is sorted 
-    by number of Articles first and Tag second.
-    
-    Usage:
-    {% for tag, articles in tags_sorted_article_length %}
+sort_tags
+===================================
+
+This plugin adds tags_sorted_article_length to the context,
+which is a list of tupels (Tag, [Articles]) that is sorted 
+by number of Articles first and Tag second.
 '''
 
 from operator import itemgetter
